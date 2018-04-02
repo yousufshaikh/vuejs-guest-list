@@ -19,7 +19,7 @@
         <hr>
         <ul class="nav">
           <div v-for="navLink in navLinks" :key="navLink.id">
-            <li class="nav-item"><a class="nav-link" v-bind:href="navLink.url">{{navLink.name}}</a></li>
+            <li class="nav-item"><a target="_blank" class="nav-link" v-bind:href="navLink.url">{{navLink.name}}</a></li>
           </div>
         </ul>
       </div>

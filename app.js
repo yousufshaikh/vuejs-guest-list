@@ -56,11 +56,9 @@ var vm2 = new Vue({
     el: '#navigation',
     data: {
         webHeading: 'Guest List',
-        navLinks:[{name: "Home", id:1, url: "https://www.google.com"}, {name: "Contact", id:2, url: "https://www.twitter.com"}, {name: "About", id:3, url: "https://www.facebook.com"}]
+        navLinks:[{name: "Home", id:1, url: "https://www.example.com/"}, {name: "About", id:2, url: "https://www.example.com/"}, {name: "Contact", id:3, url: "https://www.example.com/"}]
     },
     methods: {
         
     }
 })
-
-console.log(vm1.$data);

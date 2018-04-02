@@ -59,9 +59,7 @@ var vm2 = new Vue({
         navLinks:[{name: "Home", id:1, url: "https://www.google.com"}, {name: "Contact", id:2, url: "https://www.twitter.com"}, {name: "About", id:3, url: "https://www.facebook.com"}]
     },
     methods: {
-        capacityChange: function(){
-            vm1.eventCapacity = 15
-        }
+        
     }
 })
 
